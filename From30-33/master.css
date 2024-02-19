@@ -1,0 +1,180 @@
+/* Assignment 1 */
+.green,
+.red,
+.blue,
+.black {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+
+.green {
+  background-color: rgb(0 150 136);
+  z-index: 2;
+  left: 30px;
+  top: 30px;
+}
+
+.red {
+  top: 40px;
+  left: 40px;
+  background-color: rgb(244 67 54);
+  z-index: 3;
+}
+
+.blue {
+  top: 20px;
+  left: 20px;
+  background-color: rgb(3 169 244);
+  z-index: 1;
+}
+
+.black {
+  background-color: black;
+  z-index: 0;
+  top: 30px;
+  left: 20px;
+}
+
+hr {
+  margin-top: 200px;
+}
+
+/* Assignmet 2 */
+.parent {
+  padding: 20px;
+  width: 400px;
+  margin: 10px auto;
+  background-color: rgb(238 238 238);
+  border: 2px solid;
+  border-color: rgb(244 67 54) rgb(33 150 243);
+  position: relative;
+}
+
+.top-left,
+.bottom-left,
+.top-right,
+.bottom-right {
+  position: absolute;
+  background-color: rgb(33 150 243);
+  padding: 5px 10px;
+  color: white;
+}
+
+.top-left {
+  top: -15px;
+  left: -15px;
+  border-right: 3px solid rgb(244 67 54);
+}
+
+.bottom-left {
+  bottom: -15px;
+  left: -15px;
+  border-right: 3px solid rgb(244 67 54);
+}
+
+.bottom-right {
+  bottom: -15px;
+  right: -15px;
+  border-left: 3px solid rgb(244 67 54);
+}
+
+.top-right {
+  top: -15px;
+  right: -15px;
+  border-left: 3px solid rgb(244 67 54);
+}
+
+/* Assignment 3 */
+
+.parent2 {
+  width: 400px;
+  margin: 10px auto;
+}
+
+.html,
+.css,
+.js {
+  background-color: rgb(238 238 238);
+  margin: 10px auto;
+  padding: 10px;
+  list-style: none;
+}
+
+.html ol,
+.css ol {
+  margin: 10px;
+  padding-left: 10px;
+}
+
+.html ol li,
+.css ol li {
+  background-color: white;
+  padding: 5px;
+  margin: 10px;
+}
+
+.css ol li {
+  list-style-type: upper-roman;
+}
+
+.js ul {
+  padding-left: 0;
+}
+
+.js ul li {
+  background-color: white;
+  padding: 5px;
+  margin: 10px 0;
+  list-style-position: inside;
+}
+
+/* Assignmet 4 */
+
+caption {
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 700px;
+  margin: 20px auto;
+  font-family: Arial, Helvetica, sans-serif;
+  border-bottom: 2px solid rgb(88 186 177);
+}
+
+thead td {
+  background-color: #404040;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+}
+
+img {
+  width: 60px;
+
+}
+
+table tbody td {
+  background-color: rgb(238 238 238);
+  padding: 10px;
+  text-align: center;
+}
+
+.b1 {
+  padding: 5px 10px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  background-color: rgb(3 169 244);
+}
+
+.b2 {
+  padding: 5px 10px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  background-color: rgb(233 30 99);
+}
