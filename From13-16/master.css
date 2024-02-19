@@ -1,0 +1,30 @@
+/* Assignment 1 */
+div div span {
+
+  color: red;
+}
+
+div span {
+  color: blue;
+}
+
+p,
+div.title {
+  color: green;
+}
+
+/* Assignment 2 */
+
+.one,
+.two,
+.three,
+.four {
+  padding: 20px;
+  color: white;
+  background-color: #a52a2aed;
+  margin: 20px;
+  width: fit-content;
+  max-width: 400px;
+  max-height: 20px;
+  overflow: hidden;
+}
