@@ -1,0 +1,68 @@
+/* Assignment 1 */
+
+.first {
+  padding: 20px;
+  margin: 20px auto;
+  width: 450px;
+  border: 5px solid rgb(255 87 34);
+}
+
+.p1 {
+  padding: inherit;
+  text-align: center;
+  font-size: 25px;
+  width: 400px;
+  margin: 10px auto;
+  border: inherit;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(221 221 221);
+}
+
+/* Assignment 2 */
+
+.second {
+  text-align: center;
+  font-size: 50px;
+  text-transform: capitalize;
+}
+
+.one {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+
+}
+
+
+.two {
+  font-family: "Cairo", sans-serif;
+  font-weight: 700;
+}
+
+.three {
+  font-family: "Jomhuria", serif;
+  font-weight: 400;
+}
+
+/* Assignment 3 */
+
+html {
+  font-size: 20px;
+}
+
+.third {
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.four {
+  font-size: 2.5rem;
+}
+
+.five {
+  font-size: 2rem;
+}
+
+.six {
+  font-size: 1.5rem;
+}
