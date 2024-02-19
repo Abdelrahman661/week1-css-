@@ -1,0 +1,68 @@
+/* Assignment 1 */
+
+.first {
+  width: 800px;
+  background-color: #eeeeee;
+  margin: 10px auto;
+}
+
+.first div {
+  background-color: rgb(221 221 221);
+  font-size: 20px;
+  padding: 10px 0;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  float: left;
+  margin-top: 15px;
+  margin-left: 15px;
+
+}
+
+.onee {
+  width: calc(100% - 30px);
+}
+
+.twoo,
+.three,
+.four {
+  width: calc((100% - 60px) / 3);
+}
+
+.five,
+.six {
+  width: calc((100% - 45px) / 2);
+}
+
+.seven,
+.eight,
+.nine,
+.ten {
+  width: calc((100% - 75px) / 4);
+  margin-bottom: 15px;
+}
+
+.clear {
+  clear: both;
+}
+
+/* Assignment 2 */
+
+.zzz div {
+  margin: 20px auto;
+  width: 300px;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 20px;
+  background-color: rgb(179 179 179);
+  /* Get The Background From Image */
+  color: black;
+}
+
+.zzz .one {
+  background-color: rgb(179 179 179 / .1);
+}
+
+.zzz .two {
+  opacity: .1;
+}
